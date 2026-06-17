@@ -1,0 +1,17 @@
+.git
+.gitattributes
+.idea
+.venv
+__pycache__
+*.pyc
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/__pycache__/
+backend/uploads/
+.streamlit/
+*.bat
+Dockerfile
+.dockerignore
+README.md
+LICENSE

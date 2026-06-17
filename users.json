@@ -1,0 +1,743 @@
+{
+    "a1": {
+        "name": "hlhlh",
+        "email": "altafkh5@gmail.com",
+        "password": "$2b$12$Mbgnugd4ITHGgEOPxb3ZBeE9yJI1TXjNemODkEpER11Ki2v.EPWqq",
+        "profile": {
+            "bio": "NovaFlix Movie Enthusiast",
+            "photo_url": "https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png"
+        },
+        "wishlist": [],
+        "watched_list": [
+            "A Knight's Tale",
+            "Avatar: The Way of Water"
+        ],
+        "interactions": {
+            "The Fifth Element": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.6424
+            },
+            "Avatar": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1781161429.6018746,
+                "recommendation_score": 3.4819,
+                "user_id": "a1",
+                "movie_id": "Avatar"
+            },
+            "X-Men: Days of Future Past": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5761
+            },
+            "Teenage Mutant Ninja Turtles": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4531
+            },
+            "Man of Steel": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5043
+            },
+            "Suicide Squad": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4538
+            },
+            "Jupiter Ascending": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4017
+            },
+            "Underworld: Rise of the Lycans": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3394
+            },
+            "Race to Witch Mountain": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5443
+            },
+            "How to Train Your Dragon 2": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5579
+            },
+            "Brave": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.524
+            },
+            "Superman": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3333
+            },
+            "Star Wars": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4144
+            },
+            "Maleficent": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4996
+            },
+            "Guardians of the Galaxy": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3855
+            },
+            "Men in Black": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4792
+            },
+            "Superman II": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5309
+            },
+            "Superman Returns": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4945
+            },
+            "Inception": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5108
+            },
+            "Iron Man": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1781234359.942014,
+                "recommendation_score": 2.4186,
+                "user_id": "a1",
+                "movie_id": "Iron Man"
+            },
+            "Blade: Trinity": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3511
+            },
+            "The Avengers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3466
+            },
+            "Jimmy Neutron: Boy Genius": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3475
+            },
+            "Captain America: Civil War": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4055
+            },
+            "Final Fantasy: The Spirits Within": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4283
+            },
+            "Teenage Mutant Ninja Turtles III": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.588
+            },
+            "Small Soldiers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.528
+            },
+            "Thunderbirds": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5411
+            },
+            "Star Wars: Clone Wars: Volume 1": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3559
+            },
+            "Superman III": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5233
+            },
+            "Mad Max: Fury Road": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4462
+            },
+            "Mystery Men": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5647
+            },
+            "Avengers: Age of Ultron": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3389
+            },
+            "The Hunger Games: Mockingjay - Part 2": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3397
+            },
+            "Men in Black II": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.563
+            },
+            "Transformers: Age of Extinction": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5411
+            },
+            "Jurassic World": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4093
+            },
+            "The Empire Strikes Back": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5446
+            },
+            "The Lord of the Rings: The Return of the King": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3812
+            },
+            "The Lord of the Rings: The Two Towers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3712
+            },
+            "Night at the Museum: Battle of the Smithsonian": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.532
+            },
+            "Texas Rangers": {
+                "user_id": "a1",
+                "movie_id": "Texas Rangers",
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1780465093.3545892,
+                "recommendation_score": 0.0
+            },
+            "Ant-Man": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3463
+            },
+            "Pirates of the Caribbean: The Curse of the Black Pearl": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5173
+            },
+            "Pirates of the Caribbean: At World's End": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3362
+            },
+            "Terminator Genisys": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3258
+            },
+            "The Wolverine": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5524
+            },
+            "The Lord of the Rings: The Fellowship of the Ring": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3549
+            },
+            "The Hobbit: The Battle of the Five Armies": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4774
+            },
+            "A Knight's Tale": {
+                "user_id": "a1",
+                "movie_id": "A Knight's Tale",
+                "watched": true,
+                "wishlist": false,
+                "watch_timestamp": 1780561773.7499187,
+                "recommendation_score": 0.0,
+                "rating": 10.0,
+                "rating_text": "Masterpiece",
+                "review": "",
+                "likes": [],
+                "replies": []
+            },
+            "Payback": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7959
+            },
+            "The Order": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7991
+            },
+            "Pirates of the Caribbean: Dead Man's Chest": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3323
+            },
+            "The Mortal Instruments: City of Bones": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4636
+            },
+            "Thor: The Dark World": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4857
+            },
+            "The Hobbit: An Unexpected Journey": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5323
+            },
+            "Pirates of the Caribbean: On Stranger Tides": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4854
+            },
+            "Batman v Superman: Dawn of Justice": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5622
+            },
+            "Spider-Man 3": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5848
+            },
+            "The Amazing Spider-Man": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.565
+            },
+            "Iron Man 3": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5394
+            },
+            "Avatar: The Way of Water": {
+                "user_id": "a1",
+                "movie_id": "Avatar: The Way of Water",
+                "watched": true,
+                "wishlist": false,
+                "watch_timestamp": 1781161046.8808863,
+                "recommendation_score": 0.0,
+                "rating": 7.0,
+                "rating_text": "Good",
+                "review": "",
+                "likes": [],
+                "replies": []
+            },
+            "The Abyss": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7883
+            },
+            "Terminator 2: Judgment Day": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.605
+            },
+            "Aliens": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5733
+            },
+            "The Terminator": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4778
+            },
+            "Turbo": {
+                "user_id": "a1",
+                "movie_id": "Turbo",
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1781234570.294541,
+                "recommendation_score": 0.0
+            },
+            "Big Hero 6": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4433
+            },
+            "9": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3693
+            },
+            "Exodus: Gods and Kings": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3348
+            }
+        },
+        "following": [
+            "ialtaf.14"
+        ]
+    },
+    "ialtaf.14": {
+        "name": "Altaf Khan",
+        "email": "altafkhan122105@gmail.com",
+        "password": "$2b$12$D8WDMT0ENlx2eLP1ftBEdO0EAjGOH38T51aUnNsLrfmIZ9yo6gkAO",
+        "profile": {
+            "bio": "NovaFlix Movie Enthusiast",
+            "photo_url": "https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png"
+        },
+        "wishlist": [],
+        "watched_list": [],
+        "interactions": {
+            "Suicide Squad": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.701
+            },
+            "My Super Ex-Girlfriend": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.5092
+            },
+            "Teenage Mutant Ninja Turtles": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.54
+            },
+            "X-Men: Days of Future Past": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4589
+            },
+            "Avatar": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4644
+            },
+            "The Fifth Element": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.448
+            },
+            "Man of Steel": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.4121
+            },
+            "How to Train Your Dragon 2": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.2375
+            },
+            "Men in Black": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.2649
+            },
+            "Mirror Mirror": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.3033
+            },
+            "The Sorcerer's Apprentice": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.252
+            },
+            "Jupiter Ascending": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.2832
+            },
+            "Superman": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1682
+            },
+            "Brave": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.2
+            },
+            "Small Soldiers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1638
+            },
+            "Superman Returns": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.184
+            },
+            "Men in Black II": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1719
+            },
+            "The Mortal Instruments: City of Bones": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1475
+            },
+            "The Green Mile": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1329
+            },
+            "Superman III": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.112
+            },
+            "Star Wars": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1108
+            },
+            "Inception": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1398
+            },
+            "The Lord of the Rings: The Fellowship of the Ring": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1424
+            },
+            "Jimmy Neutron: Boy Genius": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1379
+            },
+            "Night at the Museum: Battle of the Smithsonian": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1506
+            },
+            "The Martian": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1237
+            },
+            "47 Ronin": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1258
+            },
+            "Batman Begins": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0958
+            },
+            "Southland Tales": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1
+            },
+            "Mystery Men": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.175
+            },
+            "The Avengers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1042
+            },
+            "Pirates of the Caribbean: The Curse of the Black Pearl": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.116
+            },
+            "Blade: Trinity": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1305
+            },
+            "Underworld: Rise of the Lycans": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1481
+            },
+            "The Lord of the Rings: The Return of the King": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0998
+            },
+            "Gladiator": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0973
+            },
+            "Teenage Mutant Ninja Turtles III": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0964
+            },
+            "Action Jackson": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1139
+            },
+            "The Lord of the Rings: The Two Towers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1128
+            },
+            "Interstellar": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1215
+            },
+            "Maleficent": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0901
+            },
+            "Avengers: Age of Ultron": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.0964
+            },
+            "The Dark Knight": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1433
+            },
+            "Dawn of the Planet of the Apes": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.1005
+            }
+        },
+        "followers": [
+            "a1"
+        ]
+    }
+}

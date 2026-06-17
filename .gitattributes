@@ -1,0 +1,2 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+Files/*.pkl filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,90 @@
+.stories-bar-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 12px 0;
+  margin-bottom: 1.5rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.stories-bar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.story-circle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 72px;
+}
+
+.story-circle-outer {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.story-circle-outer.unviewed {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.story-circle-outer.viewed {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.story-circle-outer.none {
+  background: transparent;
+}
+
+.story-circle-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--bg, #0a0a0f); /* matches app background */
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-circle-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-add-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #0095f6;
+  border: 2px solid var(--bg, #0a0a0f);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.story-username {
+  font-size: 0.75rem;
+  color: #f5f5f5;
+  font-weight: 400;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
