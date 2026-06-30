@@ -50,13 +50,13 @@ class SPAStaticFiles(StaticFiles):
                 return await super().get_response("index.html", scope)
             raise ex
 
-dist_dir = os.path.join(os.path.dirname(__file__), "dist")
-if os.path.exists(dist_dir):
-    app.mount("/", SPAStaticFiles(directory=dist_dir, html=True), name="frontend")
-
 @app.get("/api/health")
 def health():
     return {"status": "ok", "version": "2.0.0"}
+
+dist_dir = os.path.join(os.path.dirname(__file__), "dist")
+if os.path.exists(dist_dir):
+    app.mount("/", SPAStaticFiles(directory=dist_dir, html=True), name="frontend")
 
 
 # ── Socket.IO (real-time) ─────────────────────────────────────────────────────
