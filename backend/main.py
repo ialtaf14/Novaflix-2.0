@@ -20,6 +20,7 @@ app = FastAPI(title="NovaFlix API", version="2.0.0", docs_url="/api/docs")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.ALLOWED_ORIGINS,
+    allow_origin_regex=r"https://.*novaflixteam\.netlify\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -62,7 +63,7 @@ if os.path.exists(dist_dir):
 # ── Socket.IO (real-time) ─────────────────────────────────────────────────────
 sio = socketio.AsyncServer(
     async_mode="asgi",
-    cors_allowed_origins=settings.ALLOWED_ORIGINS,
+    cors_allowed_origins="*",
 )
 
 # Track connected users: { username: set(sid) }
