@@ -1,9 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useAuthStore } from '../store/useAuthStore'
 import api from '../services/api'
 import PasswordInput from '../components/PasswordInput'
-import { useGoogleLogin } from '@react-oauth/google'
 import './Login.css'
 
 export default function Login() {
@@ -12,6 +11,32 @@ export default function Login() {
   const location = useLocation()
   const { setAuth } = useAuthStore()
   const from = location.state?.from?.pathname || '/discover'
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search)
+    const token = params.get('token')
+    const error = params.get('error')
+
+    if (token) {
+      const fetchUserAndLogin = async () => {
+        setLoginLoading(true)
+        try {
+          // Temporarily store auth token so interceptor sends it
+          setAuth({ username: 'loading...' }, token)
+          const { data } = await api.get('/auth/me')
+          setAuth(data, token)
+          navigate(from, { replace: true })
+        } catch (err) {
+          setLoginError('Failed to fetch user profile after social login.')
+        } finally {
+          setLoginLoading(false)
+        }
+      }
+      fetchUserAndLogin()
+    } else if (error) {
+      setLoginError(decodeURIComponent(error))
+    }
+  }, [location.search, navigate, from, setAuth])
 
   // ── Login state ──────────────────────────────────────────────────────────
   const [loginForm, setLoginForm] = useState({ username: '', password: '' })
@@ -60,80 +85,15 @@ export default function Login() {
     } finally { setSignupLoading(false) }
   }
 
-  // ── Helper: Send OAuth data to backend ────────────────────────────────────
-  const processOAuth = async (userData) => {
-    setLoginLoading(true)
-    setSignupLoading(true)
-    setLoginError('')
-    setSignupError('')
-    try {
-      const { data } = await api.post('/auth/oauth', userData)
-      setAuth(data.user, data.token)
-      navigate(from, { replace: true })
-    } catch (err) {
-      const msg = err.response?.data?.detail || 'OAuth login failed'
-      setLoginError(msg)
-      setSignupError(msg)
-    } finally {
-      setLoginLoading(false)
-      setSignupLoading(false)
-    }
+  // ── Centralized OAuth Redirects ──────────────────────────────────────────
+  const loginWithGoogle = () => {
+    const redirectTo = encodeURIComponent(window.location.origin + window.location.pathname)
+    window.location.href = `/api/auth/google/login?redirect_to=${redirectTo}`
   }
 
-  // ── Official Google OAuth ─────────────────────────────────────────────────
-  const loginWithGoogle = useGoogleLogin({
-    onSuccess: async (tokenResponse) => {
-      try {
-        // Fetch real user info from Google using the access token
-        const res = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-          headers: { Authorization: `Bearer ${tokenResponse.access_token}` }
-        })
-        const u = await res.json()
-        await processOAuth({
-          username: u.email.split('@')[0].toLowerCase().replace(/[^a-z0-9]/g, ''),
-          name: u.name,
-          email: u.email,
-          photo_url: u.picture,
-          provider_id: `google-${u.sub}`
-        })
-      } catch {
-        setLoginError('Google login failed')
-        setSignupError('Google login failed')
-        setLoginLoading(false)
-        setSignupLoading(false)
-      }
-    },
-    onError: () => {
-      setLoginError('Google Sign In was cancelled')
-      setSignupError('Google Sign In was cancelled')
-    },
-    flow: 'implicit',
-    prompt: 'select_account'
-  })
-
-  // ── Official Facebook OAuth ───────────────────────────────────────────────
   const loginWithFacebook = () => {
-    if (typeof window.FB === 'undefined') {
-      setLoginError('Facebook SDK not loaded. Please provide a Facebook App ID.')
-      setSignupError('Facebook SDK not loaded. Please provide a Facebook App ID.')
-      return
-    }
-    window.FB.login((response) => {
-      if (response.authResponse) {
-        window.FB.api('/me', { fields: 'id,name,email,picture.width(200)' }, async (fbUser) => {
-          await processOAuth({
-            username: (fbUser.name || 'fbuser').toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, ''),
-            name: fbUser.name,
-            email: fbUser.email || '',
-            photo_url: fbUser.picture?.data?.url || '',
-            provider_id: `facebook-${fbUser.id}`
-          })
-        })
-      } else {
-        setLoginError('Facebook login was cancelled')
-        setSignupError('Facebook login was cancelled')
-      }
-    }, { scope: 'public_profile' })
+    const redirectTo = encodeURIComponent(window.location.origin + window.location.pathname)
+    window.location.href = `/api/auth/facebook/login?redirect_to=${redirectTo}`
   }
 
   // ── Render ────────────────────────────────────────────────────────────────

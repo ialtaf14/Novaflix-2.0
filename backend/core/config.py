@@ -27,6 +27,17 @@ class Settings(BaseSettings):
     SPOTIFY_CLIENT_ID: str = ""
     SPOTIFY_CLIENT_SECRET: str = ""
 
+    # Google OAuth
+    GOOGLE_CLIENT_ID: str = "847548009302-riif07uh03cm0v1mq1ts1qlk53rq0r81.apps.googleusercontent.com"
+    GOOGLE_CLIENT_SECRET: str = ""
+    GOOGLE_REDIRECT_URI: str = "http://localhost:8000/api/auth/google/callback"
+
+    # Facebook OAuth
+    FACEBOOK_APP_ID: str = "26310019485341381"
+    FACEBOOK_APP_SECRET: str = ""
+    FACEBOOK_REDIRECT_URI: str = "http://localhost:8000/api/auth/facebook/callback"
+
+
     # CORS
     ALLOWED_ORIGINS: list = [
         "http://localhost:5173",
