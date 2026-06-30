@@ -20,9 +20,9 @@ backend/**/__pycache__/
 # Virtual environments
 .venv/
 
-# Large pickle/data files (exceed GitHub 100MB limit)
-*.pkl
+# Large data files (exceed GitHub 100MB limit)
 Files/*.csv
+Files/similarity_tags_*.pkl
 
 # IDE
 .vscode/
