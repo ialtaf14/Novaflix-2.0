@@ -1,0 +1,349 @@
+{
+    "altafkhan122105": {
+        "name": "Altaf Khan",
+        "email": "altafkhan122105@gmail.com",
+        "password": "$2b$12$wT4WEJ6010kF1ITCN9f4SOZ5stOHl28L7rQv0IyAsEywKr6tCljdy",
+        "profile": {
+            "bio": "Joined via google",
+            "photo_url": "https://lh3.googleusercontent.com/a/ACg8ocInG6NZ17lJC6K13z8H2-ZCbDeHMd3R2A50M9zUSxfW2_MVK3pc=s96-c"
+        },
+        "wishlist": [],
+        "watched_list": [],
+        "interactions": {
+            "Pirates of the Caribbean: The Curse of the Black Pearl": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8096
+            },
+            "The Lord of the Rings: The Fellowship of the Ring": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8766
+            },
+            "The Lord of the Rings: The Return of the King": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8232
+            },
+            "The Hobbit: The Battle of the Five Armies": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8267
+            },
+            "X-Men: Days of Future Past": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7936
+            },
+            "Pirates of the Caribbean: Dead Man's Chest": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8204
+            },
+            "Maleficent": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7917
+            },
+            "The Lord of the Rings: The Two Towers": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8363
+            },
+            "How to Train Your Dragon 2": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8705
+            },
+            "Avatar": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8357
+            },
+            "Man of Steel": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8074
+            },
+            "Pirates of the Caribbean: At World's End": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.855
+            },
+            "The Hobbit: An Unexpected Journey": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7933
+            },
+            "The Fifth Element": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8165
+            },
+            "Teenage Mutant Ninja Turtles": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7696
+            },
+            "Brave": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8182
+            },
+            "Thor: The Dark World": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7834
+            },
+            "Pirates of the Caribbean: On Stranger Tides": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8058
+            },
+            "Spider-Man 3": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.3214
+            },
+            "The Amazing Spider-Man 2": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7804
+            },
+            "Batman v Superman: Dawn of Justice": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7843
+            },
+            "Inception": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.0064
+            },
+            "The Amazing Spider-Man": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7799
+            },
+            "Night at the Museum: Battle of the Smithsonian": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.288
+            },
+            "Thor": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2768
+            },
+            "Suicide Squad": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2717
+            },
+            "Jupiter Ascending": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2287
+            },
+            "Warcraft": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2019
+            },
+            "Superman": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1782
+            },
+            "Prince of Persia: The Sands of Time": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.15
+            },
+            "Lara Croft Tomb Raider: The Cradle of Life": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1474
+            },
+            "The Mummy: Tomb of the Dragon Emperor": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1469
+            },
+            "Superman Returns": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1457
+            },
+            "Night at the Museum": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1426
+            },
+            "The Mortal Instruments: City of Bones": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1284
+            },
+            "The Last Witch Hunter": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.113
+            },
+            "Top Gun: Maverick": {
+                "user_id": "altafkhan122105",
+                "movie_id": "Top Gun: Maverick",
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1782805163.7771223,
+                "recommendation_score": 2.7609
+            },
+            "Lions for Lambs": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2482
+            },
+            "The Dark Knight Rises": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2318
+            },
+            "Batman Begins": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1782
+            },
+            "The Dark Knight": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.2296
+            },
+            "The Sorcerer's Apprentice": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.0341
+            },
+            "47 Ronin": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 3.1019
+            },
+            "Gladiator": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.9725
+            },
+            "The Last Samurai": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.9056
+            },
+            "Mission: Impossible - Rogue Nation": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.9796
+            },
+            "Exodus: Gods and Kings": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8536
+            },
+            "Mission: Impossible - Ghost Protocol": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7888
+            },
+            "Mission: Impossible": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8699
+            },
+            "In the Name of the King: A Dungeon Siege Tale": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.8492
+            },
+            "Dracula Untold": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7617
+            },
+            "Oblivion": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7725
+            },
+            "Project Hail Mary": {
+                "user_id": "altafkhan122105",
+                "movie_id": "Project Hail Mary",
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 1782806023.8063414,
+                "recommendation_score": 0.0
+            },
+            "In the Name of the King III": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7844
+            },
+            "The Huntsman: Winter's War": {
+                "watched": false,
+                "wishlist": false,
+                "watch_timestamp": 0.0,
+                "recommendation_score": 2.7576
+            }
+        }
+    }
+}

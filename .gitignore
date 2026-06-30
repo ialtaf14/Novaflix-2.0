@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment files (contains secrets)
+backend/.env
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+processing/__pycache__/
+backend/__pycache__/
+backend/**/__pycache__/
+
+# Virtual environments
+.venv/
+
+# Large pickle/data files (exceed GitHub 100MB limit)
+*.pkl
+Files/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Scratch/test files
+scratch/
+
+# Google Cloud SDK
+gcloud-sdk/

@@ -1,0 +1,48 @@
+.interactive-bg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -999;
+  overflow: hidden;
+  background-color: #10111a; /* slightly lighter background */
+}
+
+#blob {
+  background: linear-gradient(
+    to right, 
+    rgba(255, 65, 108, 1), 
+    rgba(255, 75, 43, 1), 
+    rgba(139, 43, 226, 1), 
+    rgba(46, 213, 115, 1)
+  );
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotateBlob 20s infinite;
+  opacity: 1; /* full opacity for more vibrant color */
+  filter: blur(50px); /* reduce filter blur to make it stronger */
+  transition: top 0.4s cubic-bezier(0.1, 0, 0.1, 1), left 0.4s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+@keyframes rotateBlob {
+  0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+  50% { transform: translate(-50%, -50%) rotate(180deg) scale(1.4, 1.8); }
+  100% { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+}
+
+#blur-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(100px); /* reduced from 150px so colors shine through more strongly */
+  -webkit-backdrop-filter: blur(100px);
+  z-index: 2;
+}
