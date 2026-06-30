@@ -29,7 +29,18 @@
         "os": "Unknown",
         "location": "Unknown (OAuth)",
         "ip_address": "127.0.0.1",
-        "last_active": 1782809107.9247146,
+        "last_active": 1782811488.89472,
         "created_at": 1782807805.4524496
+    },
+    "296c4cec-692a-4bfb-85df-dee161376243": {
+        "session_id": "296c4cec-692a-4bfb-85df-dee161376243",
+        "username": "altafkhan122105",
+        "device": "Browser",
+        "browser": "Mozilla/5.0 (Windows",
+        "os": "Unknown",
+        "location": "Unknown (OAuth)",
+        "ip_address": "127.0.0.1",
+        "last_active": 1782811574.9174771,
+        "created_at": 1782811485.234737
     }
 }

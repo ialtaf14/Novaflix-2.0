@@ -3,10 +3,7 @@ import { useAuthStore } from '../store/useAuthStore'
 
 // In production (Netlify), use the Render backend URL
 // In development, use the Vite proxy (/api)
-const BASE_URL = import.meta.env.PROD
-  ? (import.meta.env.VITE_API_URL || 'https://novaflix-backend.onrender.com/api')
-  : '/api'
-
+const BASE_URL = '/api'
 const api = axios.create({ baseURL: BASE_URL })
 
 // Attach JWT token to every request
