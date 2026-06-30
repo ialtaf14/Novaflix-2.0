@@ -32,6 +32,8 @@ class Settings(BaseSettings):
         "http://localhost:5173",
         "http://localhost:3000",
         "http://127.0.0.1:5173",
+        "https://novaflixteam.netlify.app",
+        "https://6a43a569c0f17226ad99e719--novaflixteam.netlify.app",
     ]
 
     class Config:

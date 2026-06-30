@@ -1,7 +1,13 @@
 import axios from 'axios'
 import { useAuthStore } from '../store/useAuthStore'
 
-const api = axios.create({ baseURL: '/api' })
+// In production (Netlify), use the Render backend URL
+// In development, use the Vite proxy (/api)
+const BASE_URL = import.meta.env.PROD
+  ? (import.meta.env.VITE_API_URL || 'https://novaflix-backend.onrender.com/api')
+  : '/api'
+
+const api = axios.create({ baseURL: BASE_URL })
 
 // Attach JWT token to every request
 api.interceptors.request.use((config) => {
